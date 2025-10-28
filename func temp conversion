@@ -1,0 +1,12 @@
+def f_to_c(c):
+    f=(c*1.8)+32
+    return f
+def c_to_f(f):
+    c=(f-32)/1.8
+    return c
+a=int (input("Enter the celsius "))
+b=int(input("Enter the Fahrenheit "))
+f=f_to_c(a)
+c=c_to_f(b)
+print("The celsius to fahrenheit is ",f)
+print("The fahrenheit to celsius is ",c)
