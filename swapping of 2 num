@@ -1,0 +1,4 @@
+a=int(input("Enter the 1st number "))
+b=int(input("Enter the 2nd number "))
+a,b=b,a
+print("The after swap the 1st and 2nd number are ", a, b)
