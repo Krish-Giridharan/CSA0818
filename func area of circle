@@ -1,0 +1,6 @@
+def areaofcircle(r):
+    c=3.14*r*r
+    return c
+a=int(input("Enter the radius "))
+c=areaofcircle(a)
+print("The area of circle is ",c)
