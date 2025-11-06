@@ -1,0 +1,13 @@
+matrix = [[12, 7, 9],[8, 5, 6],[3, 10, 4]]
+elements = [x for row in matrix for x in row]
+elements.sort()
+rows = len(matrix)
+cols = len(matrix[0])
+sorted_matrix = [[0]*cols for _ in range(rows)]
+index = 0
+for i in range(rows):
+    for j in range(cols):
+        sorted_matrix[i][j] = elements[index]
+        index += 1
+for row in sorted_matrix:
+    print(row)
